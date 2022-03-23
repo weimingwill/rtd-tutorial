@@ -105,9 +105,9 @@ copybutton_prompt_text = r'>>> |\.\.\. '
 copybutton_prompt_is_regexp = True
 
 
-def builder_inited_handler(app):
-    subprocess.run(['./stat.py'])
+# def builder_inited_handler(app):
+#     subprocess.run(['./stat.py'])
 
 
-def setup(app):
-    app.connect('builder-inited', builder_inited_handler)
+# def setup(app):
+#     app.connect('builder-inited', builder_inited_handler)
