@@ -48,7 +48,6 @@ Welcome to MMDetection's documentation!
 
    api.rst
 
-   index-b.rst
 
 Indices and tables
 ==================
