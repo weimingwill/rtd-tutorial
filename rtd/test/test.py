@@ -51,6 +51,7 @@ class Test:
 
     def get_it(self):
         """Get it for testing
+        
         Returns:
             list(int): description for list.
         """
@@ -58,6 +59,7 @@ class Test:
 
     def set_it(self, a):
         """Set it to test
+
         Args:
             a (int): a parameter
         """
@@ -65,6 +67,7 @@ class Test:
 
 def test_single_function(a, b): 
     """Test a single function
+
     Args:
         a (int): an integer.
         b (string): a string.
@@ -73,8 +76,10 @@ def test_single_function(a, b):
 
 def test_get_function(a):
     """Test a single function
+
     Args:
         a (int): an integer.
+
     Returns:
         int: return an integer.
     """
