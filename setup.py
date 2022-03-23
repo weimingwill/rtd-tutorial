@@ -8,9 +8,9 @@ import sys
 import warnings
 from setuptools import find_packages, setup
 
-import torch
-from torch.utils.cpp_extension import (BuildExtension, CppExtension,
-                                       CUDAExtension)
+# import torch
+# from torch.utils.cpp_extension import (BuildExtension, CppExtension,
+#                                        CUDAExtension)
 
 
 def readme():
@@ -213,5 +213,5 @@ if __name__ == '__main__':
             'all': parse_requirements('requirements.txt'),
         },
         ext_modules=[],
-        cmdclass={'build_ext': BuildExtension},
+        # cmdclass={'build_ext': BuildExtension},
         zip_safe=False)
