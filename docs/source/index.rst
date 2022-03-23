@@ -6,8 +6,6 @@ Welcome to MMDetection's documentation!
    :caption: Get Started
 
    get_started.md
-   modelzoo_statistics.md
-   model_zoo.md
 
 .. toctree::
    :maxdepth: 2
@@ -49,6 +47,8 @@ Welcome to MMDetection's documentation!
    :caption: API Reference
 
    api.rst
+
+   index-b.rst
 
 Indices and tables
 ==================
