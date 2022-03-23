@@ -62,3 +62,20 @@ class Test:
             a (int): a parameter
         """
         self.a = a
+
+def test_single_function(a, b): 
+    """Test a single function
+    Args:
+        a (int): an integer.
+        b (string): a string.
+    """
+    pass
+
+def test_get_function(a):
+    """Test a single function
+    Args:
+        a (int): an integer.
+    Returns:
+        int: return an integer.
+    """
+    return a
