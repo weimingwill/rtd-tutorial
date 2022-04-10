@@ -132,7 +132,7 @@ We can simulate non-IID CIFAR datasets by Dirichlet process (`dir`) or by label 
 
 EasyFL also supports integrating with customized dataset to simulate federated learning.
 
-You can use the following classes to integrate customized dataset: [FederatedImageDataset](api.html#easyfl.datasets.FederatedImageDataset), [FederatedTensorDataset](api.html#easyfl.datasets.FederatedTensorDataset), and [FederatedTorchDataset](api.html#easyfl.datasets.FederatedTorchDataset).
+You can use the following classes to integrate customized dataset: [FederatedImageDataset](../api.html#module-rtd), [FederatedTensorDataset](../api.html#easyfl.datasets.FederatedTensorDataset), and [FederatedTorchDataset](../api.html#easyfl.datasets.FederatedTorchDataset).
 
 The following is an example that integrates [nine person re-identification datasets](https://arxiv.org/abs/2008.11560), where each client contains one dataset.
 
