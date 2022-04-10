@@ -20,10 +20,10 @@ sys.path.insert(0, os.path.abspath('../..'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'MMDetection'
-copyright = '2018-2021, OpenMMLab'
-author = 'MMDetection Authors'
-# version_file = '../../mmdet/version.py'
+project = 'EasyFL'
+copyright = '2020-2022, EasyFL'
+author = 'EasyFL Authors'
+# version_file = '../../easyfl/version.py'
 
 
 # def get_version():
@@ -32,7 +32,7 @@ author = 'MMDetection Authors'
 #     return locals()['__version__']
 
 
-# # The full version, including alpha/beta/rc tags
+# # # The full version, including alpha/beta/rc tags
 # release = get_version()
 
 # -- General configuration ---------------------------------------------------
@@ -84,10 +84,23 @@ html_theme_path = [pytorch_sphinx_theme.get_html_theme_path()]
 html_theme_options = {
     'menu': [
         {
+            'name': 'Get Started',
+            'url': 'get_started.html'
+        },
+        {
+            'name': 'Tutorials',
+            'url': 'tutorials/high-level_apis.html'
+        },
+        {
+            'name': 'API',
+            'url': 'api.html'
+        },
+        {
             'name': 'GitHub',
-            'url': 'https://github.com/open-mmlab/mmdetection'
+            'url': 'https://github.com/EasyFL-AI/easyfl'
         },
     ],
+
     # Specify the language of shared menu
     'menu_lang': 'en'
 }

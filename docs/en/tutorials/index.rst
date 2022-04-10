@@ -1,14 +1,11 @@
 .. toctree::
    :maxdepth: 2
+   :caption: Tutorial
 
+   high-level_apis.md
    config.md
-   customize_dataset.md
-   data_pipeline.md
-   customize_models.md
-   customize_runtime.md
-   customize_losses.md
-   finetune.md
-   robustness_benchmarking.md
-   pytorch2onnx.md
-   onnx2tensorrt.md
-   init_cfg.md
+   dataset.md
+   model.md
+   customize_server_and_client.md
+   distributed_training.md
+   remote_training.md
